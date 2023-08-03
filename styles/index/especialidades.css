@@ -1,0 +1,184 @@
+.especialidades {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1.5em;
+}
+
+.especialidades__titulo {
+    font-weight: var(--bold);
+    font-size: 25px;
+    padding: 1.5em 0 0 0;
+}
+
+.especialidades__pratos__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    margin-top: 1em;
+    align-items: center;
+}
+
+.especialidades__pratos__risotto {
+    background-image: url(/assents/Risotto\ al\ Funghi.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 379px;
+    height: 202px;
+}
+
+.especialidades__pratos__lasagna {
+    background-image: url(/assents/Lasagna\ al\ Forno.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 379px;
+    height: 202px;
+}
+
+.especialidades__pratos__pollo {
+    background-image: url(/assents/Pollo\ al\ Cacciatora.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 379px;
+    height: 202px;
+}
+
+.especialidades__pratos__texto {
+    color: var(--branco);
+    padding: 2em 0 0 1em;
+}
+
+
+.especialidades__pratos__titulo {
+    font-weight: var(--bold);
+    font-size: 20px;
+}
+
+.especialidades__pratos__paragrafo {
+    font-weight: var(--regular);
+    font-size: 16px;
+    width: 40%;
+    padding-top: 0.7em;
+}
+
+.especialidades__menu {
+    display: flex;
+    font-weight: var(--bold); 
+    font-size: 20px;
+    color: var(--preto);
+    text-decoration: none;
+    justify-content: end;
+    padding: 0.7em 0 2em 0;
+}
+
+.especialidades__menu.superior {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .especialidades {
+        margin: 0 3em;
+    }
+
+    .especialidades__titulo-e-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        margin-top: 2em;
+    }
+
+    .especialidades__titulo {
+        font-size: 30px;
+        padding: 0;
+    }
+
+    .especialidades__menu {
+        font-size: 23px;
+        padding: 0;
+    }
+
+    .especialidades__pratos__container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+
+    .especialidades__pratos__risotto {
+        width: 404px;
+        height: 215px;
+    }
+
+    .especialidades__pratos__lasagna {
+        width: 404px;
+        height: 215px;
+    }
+
+    .especialidades__pratos__pollo {
+        width: 404px;
+        height: 215px;
+    }
+
+    .especialidades__menu.superior {
+        display: block;
+    }
+
+
+    .especialidades__menu.inferior {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1728px) {
+
+    .especialidades {
+        margin: 0 5em;
+    }
+
+    .especialidades__titulo {
+        font-size: 40px;
+
+    }
+
+    .especialidades__menu.superior {
+        font-size: 27px;
+    }
+
+    .especialidades__pratos__container{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .especialidades__pratos__risotto {
+        width: 506px;
+        height: 269px;
+    }
+
+    .especialidades__pratos__lasagna {
+        width: 506px;
+        height: 269px;
+    }
+
+    .especialidades__pratos__pollo {
+        width: 506px;
+        height: 269px;
+    }
+
+    .especialidades__pratos__titulo {
+        font-size: 25px;
+        padding: 0.8em 0 0.4em 0;
+    }
+
+    .especialidades__pratos__paragrafo {
+        font-size: 16px;
+        line-height: 1.2em;
+        width: 30%;
+    }
+    
+}

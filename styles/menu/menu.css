@@ -1,0 +1,292 @@
+.bodyMenu {
+    background-color: var(--preto);
+    margin-top: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 1.7em 1.5em 0 1.5em;
+    color: var(--branco);
+    border: 3px solid var(--branco);
+    padding: 0.5em 0.7em 0.7em 0.7em;
+}
+
+.containerPrincipal {
+    display: flex;
+    flex-direction: column;
+    margin: 1.7em 1.5em 0 1.5em;
+    background-color: var(--branco);
+}
+
+.container__secao {
+    padding: 0.5em 0.7em 0.7em 0.7em;
+}
+
+.container__titulo {
+    font-size: 25px;
+    font-weight: var(--bold);
+}
+
+.container__prato {
+    margin-top: 1.4em;
+}
+
+.container__prato__titulo {
+    font-size: 17px;
+    font-weight: var(--bold);
+    margin-bottom: 0.2em;
+}
+
+.container__prato__descricao {
+    font-size: 15px;
+    font-weight: var(--light);
+}
+
+.container__prato__destaque {
+    font-weight: var(--bold);
+    padding-left: 0.6em;
+    white-space: nowrap;
+}
+
+.container__foto.Lasagna {
+    background-color: var(--preto);
+}
+
+.container.bebidas {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: var(--branco);
+    color: var(--preto);
+}
+
+.containerBedias__secao {
+    display: flex;
+    gap: 1em;
+}
+
+.containerBedias__secao__texto {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 45%;
+}
+
+.containerBedias__secao__texto.border {
+    border-left: 4px solid var(--preto);
+    padding-left: 1em;
+}
+
+.container__divCopo__texto {
+    width: 100%;
+}
+
+.container__divCopo {
+    display: flex;
+    position: relative;
+}
+
+.container__divCopo__texto.espaco{
+    padding-right: 90px;
+}
+
+.container__divCopo__foto {
+    position: absolute;
+    right: -14px;
+    bottom: -25px;
+}
+
+.container.vinhos {
+    border: none;
+    padding-bottom: 2.5em;
+}
+
+.container__foto {
+    display: block;
+}
+
+.container__foto.lasagna {
+    background-color: var(--preto);
+}
+
+.container__imagem {
+    display: none;
+}
+
+.container__foto.desk {
+    display: none;
+}
+
+.container__fotodesk {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .bodyMenu {
+        margin-top: 120px;
+    }
+
+    .container__div {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
+
+    .container__titulo {
+        font-size: 30px;
+    }
+
+    .container__prato {
+        margin-top: 1em;
+    }
+
+
+    .container__prato__titulo {
+        font-size: 22px;
+    }
+
+    .container__prato__descricao {
+        font-size: 18px;
+    }
+
+    .containerPrincipal__div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    .container__secao {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1em;
+    }
+
+    .container__prato.posicao {
+        width: 49%;
+    }
+
+    .container__foto {
+        display: none;
+    }
+
+    .container__imagem {
+        display: block;
+        width: 49%;
+    }
+
+    .container__imagem.fotoRisoto {
+        order: 2;
+    }
+
+    .container__prato.posicao.salmone {
+        order: 1;
+    }
+
+    .container__prato.posicao.filetto {
+        order: 6;
+    }
+
+    .container__prato.posicao.saltimbocca {
+        order: 4;
+    }
+
+    .container__prato.posicao.lasagna {
+        order: 3;
+    }
+
+    .container__imagem.fotoLasagna {
+        order: 5;
+    }
+
+    .container__prato.posicaoDrink {
+        margin: 0;
+        width: 49%;
+    }
+
+    .container__divCopo__texto.espaco{
+        padding-right: 0px;
+    }
+
+    .container__divCopo__texto {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1em;
+        padding: 0;
+    }
+
+    .container__prato.posicaoDrink.espacocopo {
+        padding-right: 135px;
+        width: 35%;
+    }
+
+    .containerBedias__secao__texto {
+        padding-right: 6em;
+    }
+
+    .container__divCopo__foto {
+        width: 148px;
+        height: 287px;
+    }
+
+    .container.drinks {
+        display: flex;
+        gap: 1em;
+    }
+
+    .container__foto.desk {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1728px) {
+
+    .container__titulo {
+        font-size: 45px;
+    }
+
+    .container__prato__titulo {
+        font-size: 30px;
+    }
+
+    .container__prato__descricao {
+        font-size: 20px;
+    }
+
+    .container__fotodesk {
+        display: block;
+        width: 49%;
+    }
+
+    .container__fotodesk.fotoRisoto {
+        order: 2;
+    }
+
+    .container__fotodesk.fotoLasagna {
+        order: 5;
+    }
+
+    .container__foto {
+        display: none;
+    }
+
+    .container__imagem.fotoRisoto {
+        display: none;
+    }
+
+    .container__imagem.fotoLasagna {
+        display: none;
+    }
+
+    .container__prato.posicaoDrink.espacocopo {
+        width: 40%;
+    }
+
+}

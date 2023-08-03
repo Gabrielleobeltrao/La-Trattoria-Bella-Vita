@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Trattoria Bella Vita</title>
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wje4pzw.css">
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__esquerdo">
+            <img src="/assents/menu-hamburguer.svg" class="header__menu-hamburguer"></img>
+            <img class="header__logo" src="/assents/logo-bella-vita.svg" alt="Logo La Trattoria Bella Vita" href="index.html">
+        </div>
+        <div class="header__direito">
+            <a class="header__link hide" href="/index.html"> Inicio</a>
+            <a class="header__link" href="sobrenos.html"> Sobre Nós</a>
+            <a class="header__link" href="menu.html"> Menu</a>
+            <a class="header__link hide" href="locais.html"> Locais</a>
+            <a class="header__reserva" href="reservas.html"> Reservas</a>
+        </div>
+
+        <div class="menunav esconder">
+            <ul class="header__menu">
+                <li>
+                    <a href="/index.html" class="header__menu__link">Inicio</a>
+                </li>
+                <li>
+                    <a href="/sobrenos.html" class="header__menu__link">Sobre Nós</a>
+                </li>
+                <li>
+                    <a href="/menu.html" class="header__menu__link">Menu</a>
+                </li>
+                <li>
+                    <a href="/locais.html" class="header__menu__link">Locais</a>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+
+    <main>
+        <form>
+            <div class="formContainer">
+                <h2 class="formContainer__titulo">Detalhes da reserva :</h2>
+                <div class="formContainer__grupo">
+                    <div class="formContainer__item">
+                        <label for="neme">Nome</label>
+                        <input type="text" id="nome" class="formContainer__item__box size">
+                    </div>
+                    <div  class="formContainer__item">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" id="sobrenome" class="formContainer__item__box size">
+                    </div>
+                </div>
+                <div class="formContainer__grupo">
+                    <div  class="formContainer__item">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="formContainer__item__box size">
+                    </div>
+                    <div  class="formContainer__item">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" class="formContainer__item__box size">
+                    </div>
+                </div>
+                <div  class="formContainer__doisItens">
+                    <div class="formContainer__doisItens__item">
+                        <label for="dataDaReserva">Data da reserva</label>
+                        <input type="date" id="dataDaReserva" class="formContainer__item__box">
+                    </div>
+                    <div class="formContainer__doisItens__item">
+                        <label for="horaDaReserva">Hora da reserva</label>
+                        <input type="time" id="horaDaReserva" class="formContainer__item__box">
+                    </div>
+                </div>
+                <div>
+                    <h2>Numero de pessoas:</h2>
+                    <div class="formContainer__doisItens">
+                        <div class="formContainer__doisItens__item">
+                            <label for="adultos">Adultos</label>
+                            <input type="number" id="adultos" class="formContainer__item__box doisItens">
+                        </div>
+                        <div class="formContainer__doisItens__item">
+                            <label for="criancas">Criancas</label>
+                            <input type="number" id="criancas" class="formContainer__item__box doisItens">
+                        </div>
+                    </div>
+                </div>
+                <div  class="formContainer__item">
+                    <h2>Escolha um dos nossos restaurantes:</h2>
+                    <div>
+                        <input type="radio" id="restaurantes" value="Ville de Charme">
+                        <label for="html">Rue de l'Amour, 123, Ville de Charme</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="restaurantes" value="Cidade Oceânica">
+                        <label for="css">Avenida Costeira, 456, Cidade Oceânica</label>
+                    </div>
+                </div>
+                <div  class="formContainer__item">
+                    <label for="observacao">Alguma observacao par sua reserva ?</label>
+                    <input type="text" id="observacao" class="formContainer__item__box obs">
+                </div>
+                <input type="submit" value="Fazer reserva" class="formContainer__botao">
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div>
+                <img class="footer__logo" src="/assents/logo-bella-vita.svg" alt="Logo La Trattoria Bella Vita">
+                <ul class="footer__lista">
+                    <li>
+                        <a class="footer__link" href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="sobrenos.html">Sobre Nós</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="menu.html">Menu</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="locais.html">Locais</a>
+                    </li>
+                    <a class="footer__reserva" href="reservas.html"> Reservas</a>
+                </ul>
+            </div>
+            <div class="footer__container__direito">
+                <a class="footer__twitter" href="#"></a>
+                <a class="footer__facebook" href="#"></a>
+                <a class="footer__instagram" href="#"></a>
+            </div>
+        </div>
+        <div class="footer__direitos">
+            <p class="footer__direitos__texto">© 2023 Todos direitos reservado</p>
+        </div>
+    </footer>
+    
+    <script src="/js/menuhamburguer.js"></script>
+</body>
+</html>

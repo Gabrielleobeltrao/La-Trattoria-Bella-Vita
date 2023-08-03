@@ -1,0 +1,121 @@
+.header {
+    display: flex;
+    background: var(--preto);
+    height: 80px;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header__esquerdo {
+    display: flex;
+    align-items: center;
+}
+
+.header__menu-hamburguer {
+    width: 35px;
+    height: 25px;
+    display: inline-block;
+    margin: 0 1em 0.5em 1.5em;
+}
+
+.header__link {
+    display: none;
+    text-decoration: none;
+}
+
+.header__reserva {
+    background-color: var(--branco);
+    padding: 0.7em 1.5em;
+    border-radius: 0.5em;
+    margin-right: 1.5em;
+    font-size: 17px;
+    font-weight: var(--bold);
+    color: var(--preto);
+    text-decoration: none;
+}
+
+.header__link.hide {
+    display: none;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 1em 0 1em 1.5em;
+}
+
+.header__menu__link {
+    font-size: 23px;
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.esconder {
+    display: none;
+}
+
+
+.menunav {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: var(--preto);
+    width: 70%;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .header {
+        height: 100px;
+    }
+
+    .header__menu-hamburguer{
+        display: none;
+    }
+
+    .header__logo {
+        margin: 0 3em;
+        height: 66px; 
+    }
+
+    .header__direito {
+        display: flex;
+        align-items: center;
+        gap: 3em;
+        margin-right: 3em;
+    }
+
+    .header__link {
+        display: block;
+        color: var(--branco);
+        font-weight: var(--regular);
+        font-size: 25px;
+    }
+
+    .header__reserva {
+        font-size: 25px;
+    }
+    
+}
+
+@media screen and (min-width: 1728px) {
+
+    .header__link.hide {
+        display: block;
+    }
+
+    .header__logo {
+        margin: 0 5em;
+    }
+
+    .header__direito {
+        margin-right: 5em;
+    }
+
+}

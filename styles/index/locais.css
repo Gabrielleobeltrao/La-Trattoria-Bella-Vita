@@ -1,0 +1,114 @@
+.locais {
+    margin: 0 1.5em;
+}
+
+.locais__titulo {
+    font-weight: var(--bold);
+    font-size: 25px;
+    color: var(--preto);
+    margin-top: 1.5em;
+}
+
+.locais__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    margin: 0.7em 0 2em 0;
+}
+
+.locais__ville {
+    background-image: url(/assents/Localização-ville-de-charme.svg);
+    background-size: cover;
+    width: 375px;
+    height: 119px;
+}
+
+.locais__oceanica {
+    background-image: url(/assents/Localização-cidade-oceanica.svg);
+    background-size: cover;
+    width: 375px;
+    height: 119px;
+}
+
+.locais__texto {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 119px;
+}
+
+.locias__endereco {
+    position: absolute;
+    font-weight: var(--regular);
+    font-size: 20px;
+    color: var(--branco);
+    margin: 0 0.6em 0.2em 0;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .locais {
+        margin: 0 3em;
+    }
+
+    .locais__titulo {
+        font-size: 30px;
+    }
+
+    .locais__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .locais__ville {
+        width: 450px;
+        height: 143px;
+    }
+
+    .locais__oceanica {
+        width: 450px;
+        height: 143px;
+    }
+
+    .locais__texto {
+        height: 143px;
+    }
+
+}
+
+@media screen and (min-width: 1724px) {
+
+    .locais {
+        margin: 0 5em;
+    }
+
+    .locais__titulo {
+        font-size: 40px;
+    }
+
+    .locais__container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .locais__ville {
+        width: 770px;
+        height: 246px;
+    }
+
+    .locais__oceanica {
+        width: 770px;
+        height: 246px;
+    }
+
+    .locais__texto {
+        height: 246px;
+    }
+
+    .locias__endereco {
+        font-size: 35px;
+    }
+
+}

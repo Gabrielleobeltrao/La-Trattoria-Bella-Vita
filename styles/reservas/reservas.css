@@ -1,0 +1,143 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 1.7em 1.5em;
+    gap: 0.8em;
+    font-size: 18px;
+    font-weight: var(--regular);
+    margin-top: 110px;
+}
+
+.formContainer__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainer__doisItens {
+    display: flex;
+}
+
+.formContainer__item__box.doisItens {
+    width: 45%;
+}
+
+.formContainer__item__box {
+    background-color: var(--cinza);
+    border: none;
+    border-radius: 0.7em;
+    padding: 0.5em;
+    margin-top: 0.2em;
+}
+
+.formContainer__item__box.obs {
+    height: 7em;
+}
+
+.formContainer__titulo {
+    font-size: 23px;
+    font-weight: var(--bold);
+}
+
+.formContainer__botao {
+    font-size: 18px;
+    font-weight: var(--bold);
+    color: var(--branco);
+    background-color: var(--preto);
+    border: none;
+    border-radius: 0.4em;
+    width: 10em;
+    align-self: center;
+    padding: 0.5em 0;
+}
+
+.formContainer__grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .formContainer {
+        font-size: 23px;
+        margin-top: 130px;
+    }
+
+    .formContainer__titulo {
+        font-size: 28px;
+    }
+
+    .formContainer__doisItens__item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formContainer__doisItens {
+        gap: 2em;
+    }
+
+    .formContainer__grupo {
+        display: flex;
+        gap: 2.5em;
+
+    }
+
+    .formContainer__item__box.size {
+        width: 42vw;
+    }
+
+    .formContainer__item__box.obs {
+        height: 8em;
+        resize: none;
+    }
+
+    .formContainer__item__box.doisItens {
+        width: 60%;
+    }
+
+    .formContainer__botao {
+        font-size: 21px;
+    }
+
+    .formContainer__grupo {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5em;
+    }
+
+}
+
+@media screen and (min-width: 1724px) {
+
+    .formContainer {
+        font-size: 28px;
+    }
+
+    .formContainer__titulo {
+        font-size: 43px;
+    }
+
+    .formContainer__item__box.obs {
+        height: 12em;
+        resize: none;
+    }
+
+    .formContainer__botao {
+        font-size: 27px;
+    }
+
+    .formContainer__item__box {
+        padding: 0.8em;
+    }
+
+    .formContainer__item__box.size {
+        width: 45vw;
+    }
+
+    .formContainer__grupo {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5em;
+    }
+
+}

@@ -1,0 +1,120 @@
+.chef {
+    background-image: url(/assents/chef-mobile.svg);
+    background-size: cover;
+    background-position: left bottom;
+    height: 631px;
+}
+
+.chef__container {
+    margin: 0 1.5em;
+    color: var(--branco);
+}
+
+.chef__titulo-nossa-equipe {
+    font-weight: var(--bold);
+    font-size: 25px;
+    padding: 1em 0 0.7em 0;
+}
+
+.chef__paragrafo-nossa-equipe {
+    font-weight: var(--regular);
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.chef__titulo-giovanni {
+    font-weight: var(--bold);
+    font-size: 23px;
+    padding: 1.2em 0 0.7em 0;
+}
+
+.chef__paragrafo-giovanni {
+    font-weight: var(--regular);
+    font-size: 17px;
+    line-height: 20px;
+    width: 55%;
+}
+
+@media screen and (min-width: 1024px) {
+    .chef {
+        background-image: url(/assents/Chef.svg);
+        height: 324px;
+        bottom: 0;
+        right: 0;
+    }
+
+    .chef__container {
+        margin: 0 3em;
+        display: flex;
+        gap: 1em;
+        align-items: start;
+    }
+
+    .chef__nossa-equipe {
+        width: 100%;
+    }
+
+    .chef__titulo-nossa-equipe {
+        font-size: 30px;
+    }
+
+    .chef__paragrafo-nossa-equipe {
+        font-size: 17px;
+    }
+
+    .chef__giovanni {
+        padding-top: 0.4em;
+        width: 100%;
+    }
+
+    .chef__titulo-giovanni {
+        font-size: 23px;
+    }
+
+    .chef__paragrafo-giovanni {
+        font-size: 17px;
+        padding-top: 0.3em;
+    }
+
+
+}
+
+@media screen and (min-width: 1728px) {
+
+    .chef {
+        height: 496px;
+    }
+
+    .chef__container {
+        margin: 0 5em;
+    }
+
+    .chef__nossa-equipe {
+        width: 63%;
+    }
+
+    .chef__titulo-nossa-equipe {
+        font-size: 40px;
+    }
+
+    .chef__paragrafo-nossa-equipe {
+        font-size: 25px;
+        line-height: 1.2em;
+    }
+
+    .chef__giovanni{
+        padding-top: 0.5em;
+    }
+
+    .chef__titulo-giovanni {
+        font-size: 30px;
+    }
+
+    .chef__paragrafo-giovanni {
+        font-size: 25px;
+        line-height: 1.2em;
+        padding-top: 0.4em;
+        width: 51%;
+    }
+    
+}

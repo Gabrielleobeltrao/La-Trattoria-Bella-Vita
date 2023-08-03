@@ -1,0 +1,64 @@
+.banner {
+    background-image: url("/assents/banner-mobile.svg");
+    background-size: cover;
+    background-position: center;
+    height: 375px;
+    padding: 0 1.5em;
+    margin-top: 50px;
+}
+
+.banner__titulo {
+    font-size: 30px;
+    font-weight: var(--bold);
+    color: var(--branco);
+    width: 80%;
+    padding: 2em 0 1em 0;
+}
+
+.banner__paragrafo {
+    font-size: 17px;
+    font-weight: var(--regular);
+    color: var(--branco);
+    width: 80%;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .banner {
+        background-image: url("/assents/banner.svg");
+        padding: 0 3em;
+        margin-top: 100px;
+    }
+
+    .banner__titulo {
+        font-size: 35px;
+        width: 50%;
+    }
+
+    .banner__paragrafo {
+        font-size: 17px;
+        width: 37%;
+    }
+    
+}
+
+@media screen and (min-width: 1728px) {
+
+    .banner {
+        background-image: url("/assents/banner.svg");
+        padding: 0 5em;
+        min-height: 632px;
+    }
+
+    .banner__titulo {
+        font-size: 50px;
+        width: 40%;
+        padding-top: 3em;
+    }
+
+    .banner__paragrafo {
+        font-size: 30px;
+        width: 40%;
+    }
+    
+}

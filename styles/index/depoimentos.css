@@ -1,0 +1,136 @@
+.depoimentos {
+    margin: 0 1.5em;
+    color: var(--preto);
+}
+
+.depoimentos__titulo {
+    font-weight: var(--bold);
+    font-size: 25px;
+    padding: 1.5em 0 0 0;
+}
+
+.depoimentos__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    gap: 2em;
+}
+
+.depoimentos__maria {
+    background-image: url(/assents/depoimento-maria-santos.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 274px;
+    height: 407px;
+}
+
+.depoimentos__joao {
+    background-image: url(/assents/depoimento-joao-silva.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 274px;
+    height: 407px;
+}
+
+.depoimentos__ana {
+    background-image: url(/assents/depoimento-ana-torres.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 274px;
+    height: 407px;
+}
+
+.depoimentos__pedro {
+    display: none;
+}
+
+.depoimentos__texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.3em;
+    height: 407px;
+}
+
+.depoimentos__paragrafo {
+    font-weight: var(--regular);
+    font-size: 17px;
+    margin: 1.5em 0 2.2em 0;
+}
+
+.depoimentos__nome {
+    font-weight: var(--bold);
+    font-size: 20px;
+    padding-bottom: 7.3em;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .depoimentos {
+        margin: 0 3em;
+    }
+
+    .depoimentos__titulo {
+        font-size: 30px;
+    }
+
+    .depoimentos__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0 1.5em;
+    }
+    
+}
+
+@media screen and (min-width: 1728px) {
+
+    .depoimentos {
+        margin: 0 5em;
+    }
+
+    .depoimentos__titulo {
+        font-size: 40px;
+    }
+
+    .depoimentos__container {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    .depoimentos__maria {
+        width: 325px;
+        height: 483px;
+    }
+
+    .depoimentos__joao {
+        width: 325px;
+        height: 483px;
+    }
+
+    .depoimentos__ana {
+        width: 325px;
+        height: 483px;
+    }
+
+    .depoimentos__pedro {
+        display: block;
+        background-image: url(/assents/depoimento-pedro-oliveiras.svg);
+        background-repeat: no-repeat;
+        width: 325px;
+        height: 483px;
+    }
+
+    .depoimentos__paragrafo {
+        font-size: 20px;
+    }
+
+    .depoimentos__nome {
+        font-size: 25px;
+        padding-bottom: 4em;
+    }
+    
+}

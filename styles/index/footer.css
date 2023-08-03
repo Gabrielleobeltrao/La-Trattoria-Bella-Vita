@@ -1,0 +1,160 @@
+.footer {
+    background-color: var(--preto);
+}
+
+.footer__container {
+    margin: 0 1.5em;
+    display: flex;
+}
+
+.footer__logo {
+    width: 194px;
+    height: 86px;
+    padding-top: 2em;
+}
+
+.footer__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    margin-top: 1.5em;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: var(--light);
+    font-size: 17px;
+}
+
+.footer__reserva {
+    display: flex;
+    justify-content: center;
+    background-color: var(--branco);
+    color: var(--preto);
+    border-radius: 0.5em;
+    padding: 0.8em 0;
+    font-size: 17px;
+    font-weight: var(--bold);
+    text-decoration: none;
+    width: 150px;
+}
+
+.footer__container__direito {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+    gap: 1.3em;
+}
+
+.footer__twitter {
+    background-image: url(/assents/twitter.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}
+
+.footer__facebook {
+    background-image: url(/assents/facebook.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}
+
+.footer__instagram {
+    background-image: url(/assents/instagram.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}
+
+.footer__direitos {
+    display: flex;
+    justify-content: center;
+    border-top: var(--branco) solid 4px;
+    margin: 1em 1.5em 0 1.5em;
+}
+
+.footer__direitos__texto {
+    font-weight: var(--regular);
+    font-size: 17px;
+    color: var(--branco);
+    padding: 0.7em 0;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .footer__container {
+        margin: 0 3em;
+    }
+
+    .footer__direitos {
+        margin: 1em 3em 0 3em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .footer__container {
+        margin: 0 5em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__logo {
+        width: 307px;
+        height: 136px;
+        padding-top: 4em;
+    }
+
+    .footer__lista {
+        display: flex;
+        gap: 2em;
+        padding-top: 2em;
+    }
+
+    .footer__link {
+        font-size: 25px;
+    }
+
+    .footer__reserva {
+        font-size: 25px;
+        padding: 0.6em 0;
+        width: 180px;
+    }
+
+    .footer__container__direito {
+        display: flex;
+        justify-content: start;
+        padding-top: 1.5em;
+        gap: 2em;
+    }
+
+    .footer__twitter {
+        width: 42px;
+        height: 42px;
+    }
+    
+    .footer__facebook {
+        width: 42px;
+        height: 42px;
+    }
+    
+    .footer__instagram {
+        width: 42px;
+        height: 42px;
+    }
+
+    .footer__direitos {
+        margin: 1em 5em 0 5em;
+    }
+
+    .footer__direitos__texto {
+        font-size: 25px;
+    }
+    
+}

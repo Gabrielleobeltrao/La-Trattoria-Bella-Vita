@@ -1,0 +1,37 @@
+/* index */
+@import url(/styles/index/header.css);
+@import url(/styles/index/banner.css);
+@import url(/styles/index/especialidades.css);
+@import url(/styles/index/chef.css);
+@import url(/styles/index/depoimentos.css);
+@import url(/styles/index/locais.css );
+@import url(/styles/index/footer.css);
+
+/* reservas */
+@import url(/styles/reservas/reservas.css);
+
+/* menu */
+@import url(/styles/menu/menu.css);
+
+/* sobrenos */
+@import url(/styles/sobrenos/sobrenos.css);
+
+/* locais */
+@import url(/styles/locais/locais.css);
+
+
+:root {
+    --preto: #030200;
+    --branco: #FFFFFF;
+    --cinza: #D5D5D5;
+    --light: 300;
+    --regular: 400;
+    --bold: 700;
+}
+
+
+body {
+    height: auto;
+    width: 100vw;
+    font-family: "Bree Serif";
+}
