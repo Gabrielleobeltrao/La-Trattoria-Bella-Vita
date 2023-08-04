@@ -1,5 +1,5 @@
 /* font */
-@import url("https://use.typekit.net/wje4pzw.css");
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300;400;700&display=swap');
 
 /* index */
 @import url(/styles/index/header.css);
@@ -36,5 +36,5 @@
 body {
     height: auto;
     width: 100vw;
-    font-family: "Bree Serif", serif;
+    font-family: 'Inria Serif', serif;
 }
