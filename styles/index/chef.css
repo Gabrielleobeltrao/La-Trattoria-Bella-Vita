@@ -19,13 +19,13 @@
 .chef__paragrafo-nossa-equipe {
     font-weight: var(--regular);
     font-size: 17px;
-    line-height: 20px;
+    line-height: 1.1em;
 }
 
 .chef__titulo-giovanni {
     font-weight: var(--bold);
     font-size: 23px;
-    padding: 1.2em 0 0.7em 0;
+    padding: 1.2em 0 0.5em 0;
 }
 
 .chef__paragrafo-giovanni {
@@ -33,6 +33,7 @@
     font-size: 17px;
     line-height: 20px;
     width: 55%;
+    line-height: 1.1em;
 }
 
 @media screen and (min-width: 1024px) {

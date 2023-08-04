@@ -41,7 +41,7 @@
 .locias__endereco {
     position: absolute;
     font-weight: var(--regular);
-    font-size: 20px;
+    font-size: 18px;
     color: var(--branco);
     margin: 0 0.6em 0.2em 0;
 }
